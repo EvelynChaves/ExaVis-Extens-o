@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+    /*background-color: #000;*/
+    background-color: #FFFA30;
+    
+}
+
+.buttonsDiv{
+    margin-left: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    padding: 0px 10px !important;
+    background-color: #FFFA30;
+    color: #010400;
+    border-radius: 8px;
+    padding: 6px 0;
+    margin: 8px 8px 8px 0;
+    border: 2px solid #010400;
+    font-family: "Roboto";
+    font-family: "Helvetica";
+    font-size: 24px;
+    -webkit-transition-duration: 0.1s; /* Safari */
+    transition-duration: 0.1s;
+}
+
+.btn:hover {
+    background-color: #fffa65;
+    cursor: pointer;
+    border: 2px solid #010400;
+}

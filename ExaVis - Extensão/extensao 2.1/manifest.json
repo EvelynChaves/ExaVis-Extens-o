@@ -1,0 +1,26 @@
+{
+    "name":"Acessibilidade Visual",
+    "manifest_version": 3,
+    "description":"Extensão com funções de acessibilidade para deficientes visuais",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "all_frames": true,
+            "js": ["script.js"]
+        }
+    ],
+    "action": {
+        "default_title": "Plugin de acessibilidade",
+        "default_icon": "ExaVIs-re.png",
+        "default_popup": "index.html"
+    }
+}
